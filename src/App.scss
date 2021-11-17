@@ -1,0 +1,21 @@
+// Fonts
+// @import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique:wght@400;500;700;900&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,200;0,400;0,500;1,200&family=Zen+Kaku+Gothic+Antique:wght@400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300&display=swap');
+
+@import "./style/reset";
+@import "./style/LoginRegister";
+@import "./style/Header";
+@import "./style/Tracker";
+@import "./style/Settings";
+@import "./style/Charts/Recharts_1";
+
+@import "./style/Comp";
+@import "./style/vars";
+
+.logout-footer {
+    display: block;
+    color: $light;
+    font-size: 25px;
+    padding: 10px;
+}

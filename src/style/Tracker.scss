@@ -1,0 +1,30 @@
+@import "vars";
+@import "./Time";
+@import "./Tracker/SleepInput";
+@import "./Tracker/BCInput";
+@import "./Tracker/CryInput";
+@import "./Tracker/buttons";
+// Time and components
+#tracker-page {
+    font-family: 'Nunito', sans-serif;
+}
+
+// Just the input components (sections)
+.tracker-body {
+    padding: 15px 15px 20px 20px;
+
+    .section {
+        font-size: 18px;
+        font-weight: 300;
+        padding-bottom: 30px;
+        margin: 0px;
+
+        .section-header {
+            padding-bottom: 10px;
+        }
+    }
+
+    .bc-change {
+        color: $intense;
+    }
+}

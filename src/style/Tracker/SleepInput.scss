@@ -1,0 +1,56 @@
+@import "../vars";
+
+#sleep-input {
+    line-height: 1;
+    color: $grey;
+}
+
+.timeInputContainer {
+    position: relative;
+    top: -4px;
+    padding: 2px 0px 3px 0px;
+    margin: 0px 4px 0px 4px;
+    border-bottom: 2px solid $intense;
+    background: none;
+
+    &:hover {
+        border-bottom: 2px solid $intense;
+
+        .timeInput {
+            color: $intense;
+        }
+        
+    }
+}
+
+.timeInput {
+
+    width: 54px;
+    background: none;
+    margin: none;
+    color: $intense;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    text-align: center;
+    position: relative;
+    top: 4px;
+    display: inline;
+}
+
+.AMPM {
+    //background: $grey2;
+    padding: 5px 7px 5px 5px;
+    margin-left: -2px;
+    text-align: center;
+    color: $intense;
+
+    &:active {
+        background: $intense;
+        color: white;
+    }
+}
+
+.timeInput::placeholder {
+    color: $intense;
+}

@@ -1,0 +1,24 @@
+@import "../vars";
+
+.section {
+    .button {
+        background: $grey2;
+        border-radius: 0px;
+        width: 40px;
+        padding: 10px;
+        margin: 2px;
+        border: none;
+        font-size: 14px;
+    }
+
+    .button:active, .saved {
+        background: $intense;
+        outline: none;
+        border: none;
+        color: white;
+    }
+
+    .button-energy {
+        width: 100px;
+    }
+}
