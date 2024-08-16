@@ -1,3 +1,9 @@
+# About
+Monnbot is a mood-tracking app designed primarily for PMS and PMDD.
+It was built with Django, React, Docker, Firestore, and a custom auth system using JWTs.
+This repo is the frontend - [here is the backend repo](https://github.com/Elijer/moonbot)
+[Live Demo](https://mymoonbot.netlify.app/login)
+
 # Ports
 Django port: `7000`
 React Port: `9000`
@@ -12,7 +18,7 @@ To run app
 `cd frontend` >
 `npm start`
 
-Port to backend is hardcoded into 
+Port to backend is hardcoded in.
 
 # DJANGO
 To Run app:
