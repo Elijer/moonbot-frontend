@@ -5,9 +5,9 @@ It was built with Django, React, Docker, Firestore, and a custom JWT Auth system
 - [Live Demo](https://mymoonbot.netlify.app/login)
 
 # Ports
-Django port: `7000`
-React Port: `9000`
-Firestore emulators: `8090`
+- Django port: `7000`
+- React Port: `9000`
+- Firestore emulators: `8090`
 
 **To change ports:**
 - In react, change port by changing an environmental variable: `export PORT=9000`
