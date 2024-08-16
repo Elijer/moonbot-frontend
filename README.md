@@ -1,6 +1,6 @@
 # About
 Moonbot is a mood-tracking app designed primarily for PMS and PMDD.
-It was built with Django, React, Docker, Firestore, and a custom auth system using JWTs.
+It was built with Django, React, Docker, Firestore, and a custom JWT Auth system.
 - This repo is the frontend - [here is the backend repo](https://github.com/Elijer/moonbot)
 - [Live Demo](https://mymoonbot.netlify.app/login)
 
